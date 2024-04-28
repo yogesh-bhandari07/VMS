@@ -30,6 +30,13 @@ python manage.py runserver
 
 Token-based authentication is required for API endpoints. Obtain a token by sending a POST request to `/api/token/` with username and password in the request body. Use the obtained token as a Bearer token in the Authorization header for subsequent requests.
 
+
+### User Management
+
+- `POST /user/register/`: Create a new User.
+- `POST /user/login/`: Login User.
+
+
 ### Vendor Management
 
 - `POST /api/vendors/`: Create a new vendor.
